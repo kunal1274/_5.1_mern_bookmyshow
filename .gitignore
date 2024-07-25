@@ -1,0 +1,30 @@
+# Ignore node_modules directories
+_5.1.1_server/node_modules/
+_5.1.2_client/node_modules/
+_5.1.10_server/node_modules/
+
+# Ignore environment variable files
+_5.1.1_server/.env
+_5.1.1_server/.env.local
+_5.1.2_client/.env
+_5.1.2_client/.env.local
+_5.1.10_server/.env
+_5.1.10_server/.env.local
+
+# Ignore logs
+*.log
+_5.1.1_server/logs/
+_5.1.2_client/logs/
+_5.1.10_server/logs/
+
+# Ignore build directories
+_5.1.2_client/dist/
+_5.1.10_server/build/
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE specific files
+.vscode/
+.idea/
